@@ -12,6 +12,9 @@ candidate_options = []
 # 1. Declare the empty dictionary
 candidate_votes = {}
 # Open the election results and read the file
+winning_candidate = ""
+winning_count = 0
+winning_percentage = 0
 with open (file_to_load) as election_data:
     file_reader = csv.reader(election_data)
   
@@ -41,7 +44,22 @@ for candidate_name in candidate_votes:
     votes = candidate_votes[candidate_name]
             # 3. Calculate the percentage of votes for each candidate
     vote_percentage = float(votes)/float(total_votes)*100
-            # Print out the candidate vote dictionary.
-    print(f"{candidate_name}:received {vote_percentage}% of the vote")
+    # 1. Determin if the votes are greate than the winning count.
+    if (votes>winning_count) and (vote_percentage>winning_percentage):
+        # 2. If true then set 
+        winning_candidate = candidate_name
+        winning_count = votes
+        winning_percentage = vote_percentage
+    #print out the winning results with name, votes and percentage
+    winning_candidate_summary= (
+        f"----------------------------------\n"
+        f"Winner:{winning_candidate}\n"
+        f"Winning vote count:{winning_count}\n"
+        f"Winning percetage:{winning_percentage:.1f}%\n"
+        f"-------------- ---------------------\n")
+    print(winning_candidate_summary)
+
+            
+  
 
  

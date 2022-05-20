@@ -23,7 +23,7 @@ else:
     print("D is not in the list of counties")
 if "A" in counties or "B" in counties:
     print("A and B in the list of counties")
-else 
+else: 
     print('A or B is not in the list of counties')
 
 
