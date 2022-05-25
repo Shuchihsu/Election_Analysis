@@ -1,10 +1,10 @@
-###Election Analysis with Python
+## Election Analysis with Python
 
-## Overview of Project	
+### Overview of Project	
 
    We are using python in VS code to analyze the election results. The election results dataset is in a csv file. It has information including the Ballot ID, County names and candidate names We import the csv file to the VS code to do the analysis. In this project, we use for loop, list and dictionary (commands) to find out the totals (votes) for the election, each county and each candidate. Also, the winner candidate.
 
-Results
+## Results
 
 Here are the election results:
 
@@ -16,7 +16,7 @@ Here are the election results:
 •	The winner is Diana DeGette (272,892 votes):
 -	The winning percentage is 73.8%. It is considered high rate in this election and leave other competitors far behind.
 
-Election Audit Summary
+## Election Audit Summary
 
    We have three states and three candidates in our database and running the codes for this dataset is only taking less than a couple of seconds. I can see if we are running a bigger database, it might only take a couple of minutes to complete the analysis.
    We are getting our results one by one through each row. Maybe we can try to look at three rows at the same time and using less loops. So, we don’t need to use three to five loops.
