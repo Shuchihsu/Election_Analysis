@@ -7,6 +7,7 @@
 Results
 
 Here is the election results:
+
 ![2018 runtime]( https://github.com/jkmom/Election_Analysis/blob/main/analysis/Election_results.png)
 
 •	The total votes of this election results are 369,711.
