@@ -4,7 +4,7 @@
 
    We are using python in VS code to analyze the election results. The election results dataset is in a csv file. It has information including the Ballot ID, County names and candidate names We import the csv file to the VS code to do the analysis. In this project, we use for loop, list and dictionary (commands) to find out the totals (votes) for the election, each county and each candidate. Also, the winner candidate.
 
-###Results
+Results
 
 Here is the election results:
 ![2018 runtime]( https://github.com/jkmom/Election_Analysis/blob/main/analysis/Election_results.png)
