@@ -15,7 +15,7 @@ Here is the election results:
 •	The winner is Diana DeGette (272,892 votes):
 -	The winning percentage is 73.8%. It is considered high rate in this election and leave other competitors far behind.
 
-###Election Audit Summary
+Election Audit Summary
 
    We have three states and three candidates in our database and running the codes for this dataset is only taking less than a couple of seconds. I can see if we are running a bigger database, it might only take a couple of minutes to complete the analysis.
    We are getting our results one by one through each row. Maybe we can try to look at three rows at the same time and using less loops. So, we don’t need to use three to five loops.
