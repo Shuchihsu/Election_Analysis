@@ -6,7 +6,7 @@
 
 Results
 
-Here is the election results:
+Here are the election results:
 
 ![2018 runtime]( https://github.com/jkmom/Election_Analysis/blob/main/analysis/Election_results.png)
 
